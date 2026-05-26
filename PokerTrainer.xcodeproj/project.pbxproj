@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A000000000000000000050 /* AIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000014 /* AIPlayer.swift */; };
+		42A000000000000000000051 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000015 /* Card.swift */; };
+		42A000000000000000000052 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000016 /* GameEngine.swift */; };
+		42A000000000000000000053 /* HandEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000017 /* HandEvaluator.swift */; };
+		42A000000000000000000054 /* PlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000018 /* PlayerStats.swift */; };
+		42A000000000000000000055 /* SidePotCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000019 /* SidePotCalculator.swift */; };
+		42A000000000000000000056 /* PokerTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001A /* PokerTrainerApp.swift */; };
+		42A000000000000000000057 /* PersistenceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001B /* PersistenceModels.swift */; };
+		42A000000000000000000058 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001C /* GameViewModel.swift */; };
+		42A000000000000000000059 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001D /* CardView.swift */; };
+		42A00000000000000000005A /* TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001E /* TableScreen.swift */; };
+		42A00000000000000000005B /* HandRankingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001F /* HandRankingsView.swift */; };
+		42A00000000000000000005C /* ShowdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000020 /* ShowdownView.swift */; };
+		42A00000000000000000005D /* StatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000021 /* StatsScreen.swift */; };
+		42A00000000000000000005E /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000022 /* ProfileScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42A000000000000000000004 /* PokerTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A000000000000000000014 /* AIPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerCore/AIPlayer.swift; sourceTree = "<group>"; };
+		42A000000000000000000015 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerCore/Card.swift; sourceTree = "<group>"; };
+		42A000000000000000000016 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerCore/GameEngine.swift; sourceTree = "<group>"; };
+		42A000000000000000000017 /* HandEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerCore/HandEvaluator.swift; sourceTree = "<group>"; };
+		42A000000000000000000018 /* PlayerStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerCore/PlayerStats.swift; sourceTree = "<group>"; };
+		42A000000000000000000019 /* SidePotCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerCore/SidePotCalculator.swift; sourceTree = "<group>"; };
+		42A00000000000000000001A /* PokerTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/PokerTrainerApp.swift; sourceTree = "<group>"; };
+		42A00000000000000000001B /* PersistenceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/PersistenceModels.swift; sourceTree = "<group>"; };
+		42A00000000000000000001C /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/GameViewModel.swift; sourceTree = "<group>"; };
+		42A00000000000000000001D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/Views/CardView.swift; sourceTree = "<group>"; };
+		42A00000000000000000001E /* TableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/Views/TableScreen.swift; sourceTree = "<group>"; };
+		42A00000000000000000001F /* HandRankingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/Views/HandRankingsView.swift; sourceTree = "<group>"; };
+		42A000000000000000000020 /* ShowdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/Views/ShowdownView.swift; sourceTree = "<group>"; };
+		42A000000000000000000021 /* StatsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/Views/StatsScreen.swift; sourceTree = "<group>"; };
+		42A000000000000000000022 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokerTrainerApp/Views/ProfileScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				42A00000000000000000000F /* Sources */,
+				42A000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42A000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A000000000000000000004 /* PokerTrainer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A00000000000000000000F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42A000000000000000000014 /* AIPlayer.swift */,
+				42A000000000000000000015 /* Card.swift */,
+				42A000000000000000000016 /* GameEngine.swift */,
+				42A000000000000000000017 /* HandEvaluator.swift */,
+				42A000000000000000000018 /* PlayerStats.swift */,
+				42A000000000000000000019 /* SidePotCalculator.swift */,
+				42A00000000000000000001A /* PokerTrainerApp.swift */,
+				42A00000000000000000001B /* PersistenceModels.swift */,
+				42A00000000000000000001C /* GameViewModel.swift */,
+				42A00000000000000000001D /* CardView.swift */,
+				42A00000000000000000001E /* TableScreen.swift */,
+				42A00000000000000000001F /* HandRankingsView.swift */,
+				42A000000000000000000020 /* ShowdownView.swift */,
+				42A000000000000000000021 /* StatsScreen.swift */,
+				42A000000000000000000022 /* ProfileScreen.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A000000000000000000008 /* PokerTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A00000000000000000000A /* Build configuration list for PBXNativeTarget "PokerTrainer" */;
+			buildPhases = (
+				42A000000000000000000005 /* Sources */,
+				42A000000000000000000006 /* Frameworks */,
+				42A000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerTrainer;
+			productName = PokerTrainer;
+			productReference = 42A000000000000000000004 /* PokerTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					42A000000000000000000008 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 42A000000000000000000009 /* Build configuration list for PBXProject "PokerTrainer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A000000000000000000002;
+			productRefGroup = 42A000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A000000000000000000008 /* PokerTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A000000000000000000050 /* AIPlayer.swift in Sources */,
+				42A000000000000000000051 /* Card.swift in Sources */,
+				42A000000000000000000052 /* GameEngine.swift in Sources */,
+				42A000000000000000000053 /* HandEvaluator.swift in Sources */,
+				42A000000000000000000054 /* PlayerStats.swift in Sources */,
+				42A000000000000000000055 /* SidePotCalculator.swift in Sources */,
+				42A000000000000000000056 /* PokerTrainerApp.swift in Sources */,
+				42A000000000000000000057 /* PersistenceModels.swift in Sources */,
+				42A000000000000000000058 /* GameViewModel.swift in Sources */,
+				42A000000000000000000059 /* CardView.swift in Sources */,
+				42A00000000000000000005A /* TableScreen.swift in Sources */,
+				42A00000000000000000005B /* HandRankingsView.swift in Sources */,
+				42A00000000000000000005C /* ShowdownView.swift in Sources */,
+				42A00000000000000000005D /* StatsScreen.swift in Sources */,
+				42A00000000000000000005E /* ProfileScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		42A00000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42A00000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A00000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/PokerTrainerApp/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursor.PokerTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42A00000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/PokerTrainerApp/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursor.PokerTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A000000000000000000009 /* Build configuration list for PBXProject "PokerTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A00000000000000000000B /* Debug */,
+				42A00000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A00000000000000000000A /* Build configuration list for PBXNativeTarget "PokerTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A00000000000000000000D /* Debug */,
+				42A00000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A000000000000000000001 /* Project object */;
+}

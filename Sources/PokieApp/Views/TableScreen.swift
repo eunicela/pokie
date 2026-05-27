@@ -1,7 +1,7 @@
 #if canImport(SwiftUI)
 import SwiftUI
 
-private let accentTurquoise = Color(red: 16/255, green: 194/255, blue: 194/255)
+private let accentBlue = Color(red: 45/255, green: 48/255, blue: 145/255)
 
 struct TableScreen: View {
     @ObservedObject var store: PokieStore
@@ -113,7 +113,7 @@ struct TableScreen: View {
                             .overlay(alignment: .top) {
                                 if isActive {
                                     Circle()
-                                        .fill(accentTurquoise)
+                                        .fill(accentBlue)
                                         .frame(width: 8, height: 8)
                                         .offset(y: -6)
                                 }
@@ -305,7 +305,7 @@ struct TableScreen: View {
                         in: Double(range.lowerBound)...Double(range.upperBound),
                         step: 25
                     )
-                    .tint(accentTurquoise)
+                    .tint(accentBlue)
 
                     Button {
                         if store.callAmount == 0 {
@@ -475,7 +475,7 @@ struct TableScreen: View {
             .overlay {
                 if store.isHumanTurn {
                     RoundedRectangle(cornerRadius: 16, style: .continuous)
-                        .stroke(accentTurquoise, lineWidth: 2.5)
+                        .stroke(accentBlue, lineWidth: 2.5)
                 }
             }
             .animation(.easeInOut(duration: 0.25), value: store.isHumanTurn)
@@ -523,7 +523,7 @@ private struct BetChip: View {
     var body: some View {
         Text("\(amount)")
             .font(.caption2.weight(.bold))
-            .foregroundStyle(accentTurquoise)
+            .foregroundStyle(accentBlue)
             .frame(width: 28, height: 28)
             .background(Color.black.opacity(0.07), in: Circle())
     }

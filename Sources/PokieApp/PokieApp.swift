@@ -26,7 +26,7 @@ struct RootTabView: View {
             ProfileScreen(store: store)
                 .tabItem { Image(systemName: "person.crop.circle") }
         }
-        .tint(Color(red: 16/255, green: 194/255, blue: 194/255))
+        .tint(Color(red: 45/255, green: 48/255, blue: 145/255))
         .onAppear(perform: loadStatsIfNeeded)
         .onChange(of: store.stats) { _, newValue in
             let row = statsRow()

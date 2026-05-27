@@ -105,10 +105,11 @@ struct TableScreen: View {
                 let folded = seat.status == .folded
                 let isActive = store.state.currentActorSeatID == seat.id && store.state.phase != .handOver
                 let hasAction = store.lastActions[seat.id] != nil && !folded
+                let justActed = store.recentlyActed.contains(seat.id) && !folded
                 VStack(spacing: 2) {
                     ZStack(alignment: .bottomTrailing) {
                         PokieAvatarView(kind: .tableKind(for: seat), size: 52)
-                            .opacity(folded ? 0.3 : (hasAction ? 0.4 : 1))
+                            .opacity(folded ? 0.3 : (justActed ? 0.4 : 1))
                             .frame(width: 52, height: 52)
                             .overlay(alignment: .top) {
                                 if isActive {

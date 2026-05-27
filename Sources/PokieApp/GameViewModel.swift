@@ -15,14 +15,10 @@ final class PokieStore: ObservableObject {
     @Published private(set) var handNumber = 0
     @Published var collectingBets: [Int: Int] = [:]
 
-    private(set) var opponentEmojis: [Int: String] = [:]
     private var aiTask: Task<Void, Never>?
     private var random = SystemRandomNumberGenerator()
     private var loadedPersistedStats = false
 
-    private static let emojiPool: [String] = [
-        "😈", "🥷", "🧙‍♀️", "🐲", "🐨", "🦊", "🤖", "👻", "🦁", "🐸"
-    ]
 
     var state: GameState { engine.state }
     var humanSeat: PlayerSeat { engine.humanSeat }
@@ -41,10 +37,6 @@ final class PokieStore: ObservableObject {
     }
 
     init() {
-        var pool = Self.emojiPool.shuffled()
-        for seat in engine.state.seats where !seat.isHuman {
-            opponentEmojis[seat.id] = pool.removeFirst()
-        }
         stats.sessionsPlayed += 1
         startNextHand()
     }

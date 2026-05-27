@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A00000000000000000005F /* Sources/PokieApp/Views/PokieAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000023 /* Sources/PokieApp/Views/PokieAvatarView.swift */; };
 		42A000000000000000000050 /* Sources/PokieCore/AIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000014 /* Sources/PokieCore/AIPlayer.swift */; };
 		42A000000000000000000051 /* Sources/PokieCore/Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000015 /* Sources/PokieCore/Card.swift */; };
 		42A000000000000000000052 /* Sources/PokieCore/GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000016 /* Sources/PokieCore/GameEngine.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42A000000000000000000023 /* Sources/PokieApp/Views/PokieAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/PokieAvatarView.swift; sourceTree = "<group>"; };
 		42A000000000000000000004 /* Pokie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A000000000000000000014 /* Sources/PokieCore/AIPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/AIPlayer.swift; sourceTree = "<group>"; };
 		42A000000000000000000015 /* Sources/PokieCore/Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/Card.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				42A00000000000000000001C /* Sources/PokieApp/GameViewModel.swift */,
 				42A00000000000000000001D /* Sources/PokieApp/Views/CardView.swift */,
 				42A00000000000000000001E /* Sources/PokieApp/Views/TableScreen.swift */,
+				42A000000000000000000023 /* Sources/PokieApp/Views/PokieAvatarView.swift */,
 				42A00000000000000000001F /* Sources/PokieApp/Views/HandRankingsView.swift */,
 				42A000000000000000000022 /* Sources/PokieApp/Views/ProfileScreen.swift */,
 			);
@@ -165,6 +168,7 @@
 				42A000000000000000000058 /* Sources/PokieApp/GameViewModel.swift in Sources */,
 				42A000000000000000000059 /* Sources/PokieApp/Views/CardView.swift in Sources */,
 				42A00000000000000000005A /* Sources/PokieApp/Views/TableScreen.swift in Sources */,
+				42A00000000000000000005F /* Sources/PokieApp/Views/PokieAvatarView.swift in Sources */,
 				42A00000000000000000005B /* Sources/PokieApp/Views/HandRankingsView.swift in Sources */,
 				42A00000000000000000005E /* Sources/PokieApp/Views/ProfileScreen.swift in Sources */,
 			);

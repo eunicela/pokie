@@ -107,8 +107,7 @@ struct TableScreen: View {
                 let hasAction = store.lastActions[seat.id] != nil && !folded
                 VStack(spacing: 2) {
                     ZStack(alignment: .bottomTrailing) {
-                        Text(store.opponentEmojis[seat.id] ?? "🃏")
-                            .font(.system(size: 40))
+                        PokieAvatarView(kind: .tableKind(for: seat), size: 52)
                             .opacity(folded ? 0.3 : (hasAction ? 0.4 : 1))
                             .frame(width: 52, height: 52)
                             .overlay(alignment: .top) {
@@ -466,8 +465,7 @@ struct TableScreen: View {
                 Text(store.humanHandRank)
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.black.opacity(0.6))
-                Text("🙂")
-                    .font(.system(size: 36))
+                PokieAvatarView(kind: .tableKind(for: store.humanSeat), size: 44)
                 Text("\(store.humanSeat.stack)")
                     .font(.title3.weight(.bold))
                     .foregroundStyle(.black)

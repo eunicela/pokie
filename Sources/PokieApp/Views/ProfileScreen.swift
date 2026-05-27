@@ -163,14 +163,11 @@ private struct PlaystyleRadar: View {
 
             ZStack {
                 RoundedRectangle(cornerRadius: 28)
-                    .fill(
-                        LinearGradient(
-                            colors: [.pink.opacity(0.55), .orange.opacity(0.42), .cyan.opacity(0.42)],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        )
+                    .fill(Color.clear)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 28)
+                            .stroke(Color.white.opacity(0.16), lineWidth: 1)
                     )
-                    .overlay(Color.black.opacity(0.42))
 
                 Path { path in
                     path.move(to: CGPoint(x: center.x, y: 18))

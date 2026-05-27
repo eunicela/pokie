@@ -137,6 +137,7 @@ private struct RadarCard: View {
         VStack(alignment: .leading, spacing: 14) {
             Text("Playstyle radar")
                 .font(.headline)
+                .foregroundStyle(.black)
             PlaystyleRadar(looseness: stats.looseness, aggression: stats.aggression)
                 .frame(height: 260)
             Text("Tight to loose is driven by VPIP. Passive to aggressive is driven by AFq.")
@@ -166,7 +167,7 @@ private struct PlaystyleRadar: View {
                     .fill(Color.clear)
                     .overlay(
                         RoundedRectangle(cornerRadius: 28)
-                            .stroke(Color.white.opacity(0.16), lineWidth: 1)
+                            .stroke(Color.black.opacity(0.16), lineWidth: 1)
                     )
 
                 Path { path in
@@ -175,22 +176,22 @@ private struct PlaystyleRadar: View {
                     path.move(to: CGPoint(x: 18, y: center.y))
                     path.addLine(to: CGPoint(x: proxy.size.width - 18, y: center.y))
                 }
-                .stroke(Color.white.opacity(0.34), style: StrokeStyle(lineWidth: 1, dash: [5]))
+                .stroke(Color.black.opacity(0.34), style: StrokeStyle(lineWidth: 1, dash: [5]))
 
                 quadrant("TAG", x: proxy.size.width * 0.25, y: proxy.size.height * 0.25)
                 quadrant("LAG", x: proxy.size.width * 0.75, y: proxy.size.height * 0.25)
                 quadrant("Rock", x: proxy.size.width * 0.25, y: proxy.size.height * 0.75)
                 quadrant("Fish", x: proxy.size.width * 0.75, y: proxy.size.height * 0.75)
 
-                Text("Passive").font(.caption2).foregroundStyle(.white.opacity(0.75)).position(x: center.x, y: proxy.size.height - 10)
-                Text("Aggressive").font(.caption2).foregroundStyle(.white.opacity(0.75)).position(x: center.x, y: 10)
-                Text("Tight").font(.caption2).foregroundStyle(.white.opacity(0.75)).position(x: 24, y: center.y)
-                Text("Loose").font(.caption2).foregroundStyle(.white.opacity(0.75)).position(x: proxy.size.width - 25, y: center.y)
+                Text("Passive").font(.caption2).foregroundStyle(.black.opacity(0.75)).position(x: center.x, y: proxy.size.height - 10)
+                Text("Aggressive").font(.caption2).foregroundStyle(.black.opacity(0.75)).position(x: center.x, y: 10)
+                Text("Tight").font(.caption2).foregroundStyle(.black.opacity(0.75)).position(x: 24, y: center.y)
+                Text("Loose").font(.caption2).foregroundStyle(.black.opacity(0.75)).position(x: proxy.size.width - 25, y: center.y)
 
                 Circle()
-                    .fill(.white)
+                    .fill(.black)
                     .frame(width: 18, height: 18)
-                    .shadow(color: .white.opacity(0.6), radius: 10)
+                    .shadow(color: .black.opacity(0.22), radius: 10)
                     .position(point)
             }
         }
@@ -199,7 +200,7 @@ private struct PlaystyleRadar: View {
     private func quadrant(_ text: String, x: CGFloat, y: CGFloat) -> some View {
         Text(text)
             .font(.headline.weight(.black))
-            .foregroundStyle(.white.opacity(0.9))
+            .foregroundStyle(.black.opacity(0.9))
             .position(x: x, y: y)
     }
 }

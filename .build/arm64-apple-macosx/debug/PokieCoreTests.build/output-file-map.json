@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/primary.swiftdeps"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/HandEvaluatorTests.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests.dia"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/SidePotCalculatorTests.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests.dia"
+  }
+}

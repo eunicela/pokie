@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "PokerTrainer",
+    name: "Pokie",
     platforms: [
         .iOS(.v17),
         .macOS(.v13)
     ],
     products: [
-        .library(name: "PokerTrainerCore", targets: ["PokerTrainerCore"])
+        .library(name: "PokieCore", targets: ["PokieCore"])
     ],
     targets: [
-        .target(name: "PokerTrainerCore"),
-        .testTarget(name: "PokerTrainerCoreTests", dependencies: ["PokerTrainerCore"])
+        .target(name: "PokieCore"),
+        .testTarget(name: "PokieCoreTests", dependencies: ["PokieCore"])
     ]
 )

@@ -51,6 +51,7 @@ public struct AIDecisionContext: Sendable {
     public let stack: Int
     public let activeOpponentCount: Int
     public let legalActions: [PlayerAction.Kind]
+    public let position: TablePosition?
 
     public init(
         phase: GamePhase,
@@ -62,7 +63,8 @@ public struct AIDecisionContext: Sendable {
         currentStreetBet: Int,
         stack: Int,
         activeOpponentCount: Int,
-        legalActions: [PlayerAction.Kind]
+        legalActions: [PlayerAction.Kind],
+        position: TablePosition? = nil
     ) {
         self.phase = phase
         self.holeCards = holeCards
@@ -74,6 +76,7 @@ public struct AIDecisionContext: Sendable {
         self.stack = stack
         self.activeOpponentCount = activeOpponentCount
         self.legalActions = legalActions
+        self.position = position
     }
 }
 

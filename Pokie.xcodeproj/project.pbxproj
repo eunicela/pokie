@@ -21,6 +21,11 @@
 		42A00000000000000000005A /* Sources/PokieApp/Views/TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001E /* Sources/PokieApp/Views/TableScreen.swift */; };
 		42A00000000000000000005B /* Sources/PokieApp/Views/HandRankingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001F /* Sources/PokieApp/Views/HandRankingsView.swift */; };
 		42A00000000000000000005E /* Sources/PokieApp/Views/ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000022 /* Sources/PokieApp/Views/ProfileScreen.swift */; };
+		42A000000000000000000060 /* Sources/PokieCore/PreflopStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000024 /* Sources/PokieCore/PreflopStrategy.swift */; };
+		42A000000000000000000061 /* Sources/PokieCore/GTOAIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000025 /* Sources/PokieCore/GTOAIPlayer.swift */; };
+		42A000000000000000000062 /* Sources/PokieCore/EquityCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000026 /* Sources/PokieCore/EquityCalculator.swift */; };
+		42A000000000000000000063 /* Sources/PokieCore/PostflopStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000027 /* Sources/PokieCore/PostflopStrategy.swift */; };
+		42A000000000000000000064 /* Sources/PokieCore/ArchetypeDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000028 /* Sources/PokieCore/ArchetypeDeviation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,11 @@
 		42A00000000000000000001E /* Sources/PokieApp/Views/TableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/TableScreen.swift; sourceTree = "<group>"; };
 		42A00000000000000000001F /* Sources/PokieApp/Views/HandRankingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/HandRankingsView.swift; sourceTree = "<group>"; };
 		42A000000000000000000022 /* Sources/PokieApp/Views/ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/ProfileScreen.swift; sourceTree = "<group>"; };
+		42A000000000000000000024 /* Sources/PokieCore/PreflopStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/PreflopStrategy.swift; sourceTree = "<group>"; };
+		42A000000000000000000025 /* Sources/PokieCore/GTOAIPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/GTOAIPlayer.swift; sourceTree = "<group>"; };
+		42A000000000000000000026 /* Sources/PokieCore/EquityCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/EquityCalculator.swift; sourceTree = "<group>"; };
+		42A000000000000000000027 /* Sources/PokieCore/PostflopStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/PostflopStrategy.swift; sourceTree = "<group>"; };
+		42A000000000000000000028 /* Sources/PokieCore/ArchetypeDeviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/ArchetypeDeviation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,11 @@
 				42A000000000000000000017 /* Sources/PokieCore/HandEvaluator.swift */,
 				42A000000000000000000018 /* Sources/PokieCore/PlayerStats.swift */,
 				42A000000000000000000019 /* Sources/PokieCore/SidePotCalculator.swift */,
+				42A000000000000000000024 /* Sources/PokieCore/PreflopStrategy.swift */,
+				42A000000000000000000025 /* Sources/PokieCore/GTOAIPlayer.swift */,
+				42A000000000000000000026 /* Sources/PokieCore/EquityCalculator.swift */,
+				42A000000000000000000027 /* Sources/PokieCore/PostflopStrategy.swift */,
+				42A000000000000000000028 /* Sources/PokieCore/ArchetypeDeviation.swift */,
 				42A00000000000000000001A /* Sources/PokieApp/PokieApp.swift */,
 				42A00000000000000000001B /* Sources/PokieApp/PersistenceModels.swift */,
 				42A00000000000000000001C /* Sources/PokieApp/GameViewModel.swift */,
@@ -171,6 +186,11 @@
 				42A00000000000000000005F /* Sources/PokieApp/Views/PokieAvatarView.swift in Sources */,
 				42A00000000000000000005B /* Sources/PokieApp/Views/HandRankingsView.swift in Sources */,
 				42A00000000000000000005E /* Sources/PokieApp/Views/ProfileScreen.swift in Sources */,
+				42A000000000000000000060 /* Sources/PokieCore/PreflopStrategy.swift in Sources */,
+				42A000000000000000000061 /* Sources/PokieCore/GTOAIPlayer.swift in Sources */,
+				42A000000000000000000062 /* Sources/PokieCore/EquityCalculator.swift in Sources */,
+				42A000000000000000000063 /* Sources/PokieCore/PostflopStrategy.swift in Sources */,
+				42A000000000000000000064 /* Sources/PokieCore/ArchetypeDeviation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

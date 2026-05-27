@@ -14,8 +14,10 @@ final class PokieStore: ObservableObject {
     @Published var humanHasFolded = false
     @Published private(set) var handNumber = 0
     @Published var collectingBets: [Int: Int] = [:]
+    @Published var recentlyActed: Set<Int> = []
 
     private var aiTask: Task<Void, Never>?
+    private var recentlyActedTimers: [Int: Task<Void, Never>] = [:]
     private var random = SystemRandomNumberGenerator()
     private var loadedPersistedStats = false
 
@@ -56,6 +58,9 @@ final class PokieStore: ObservableObject {
         isShowingShowdown = false
         humanHasFolded = false
         collectingBets = [:]
+        recentlyActed = []
+        recentlyActedTimers.values.forEach { $0.cancel() }
+        recentlyActedTimers = [:]
 
         handNumber += 1
 
@@ -100,6 +105,16 @@ final class PokieStore: ObservableObject {
         return snap
     }
 
+    func markRecentlyActed(_ seatID: Int) {
+        recentlyActed.insert(seatID)
+        recentlyActedTimers[seatID]?.cancel()
+        recentlyActedTimers[seatID] = Task {
+            try? await Task.sleep(for: .milliseconds(1000))
+            guard !Task.isCancelled else { return }
+            recentlyActed.remove(seatID)
+        }
+    }
+
     func skipToShowdown() {
         aiTask?.cancel()
         aiTask = nil
@@ -114,7 +129,7 @@ final class PokieStore: ObservableObject {
             guard let seat = engine.state.seats.first(where: { $0.id == actorID }),
                   let archetype = seat.archetype,
                   let context = engine.aiDecisionContext(for: actorID) else { break }
-            let ai = ArchetypeAIPlayer(archetype: archetype)
+            let ai = GTOAIPlayer(archetype: archetype)
             let action = ai.chooseAction(in: context, using: &random)
             try? engine.apply(action, from: actorID)
         }
@@ -180,16 +195,20 @@ final class PokieStore: ObservableObject {
             var safetyCounter = 0
             var previousPhase = engine.state.phase
 
+            @Sendable func delay(_ ms: Int, fast: Bool) async -> Bool {
+                let actual = fast ? ms / 2 : ms
+                try? await Task.sleep(for: .milliseconds(actual))
+                return !Task.isCancelled
+            }
+
             if !collectingBets.isEmpty {
                 objectWillChange.send()
-                try? await Task.sleep(for: .milliseconds(600))
-                guard !Task.isCancelled else { isAIActing = false; return }
+                guard await delay(600, fast: humanHasFolded) else { isAIActing = false; return }
                 collectingBets = [:]
                 objectWillChange.send()
             }
 
-            try? await Task.sleep(for: .milliseconds(400))
-            guard !Task.isCancelled else { isAIActing = false; return }
+            guard await delay(400, fast: humanHasFolded) else { isAIActing = false; return }
 
             while safetyCounter < 80,
                   let actorID = engine.state.currentActorSeatID,
@@ -197,39 +216,37 @@ final class PokieStore: ObservableObject {
                   !seat.isHuman,
                   engine.state.phase != .handOver {
                 safetyCounter += 1
+                let fast = humanHasFolded
 
                 if engine.state.phase != previousPhase {
                     lastActions = [:]
                     previousPhase = engine.state.phase
                     objectWillChange.send()
-                    try? await Task.sleep(for: .milliseconds(600))
-                    guard !Task.isCancelled else { break }
+                    guard await delay(600, fast: fast) else { break }
                 }
 
                 objectWillChange.send()
-                try? await Task.sleep(for: .milliseconds(700))
-                guard !Task.isCancelled else { break }
+                guard await delay(700, fast: fast) else { break }
 
                 let preBets = betSnapshot()
 
                 guard let archetype = seat.archetype,
                       let context = engine.aiDecisionContext(for: actorID) else { break }
-                let ai = ArchetypeAIPlayer(archetype: archetype)
+                let ai = GTOAIPlayer(archetype: archetype)
                 let action = ai.chooseAction(in: context, using: &random)
                 lastActions[actorID] = Self.actionDisplayLabel(action)
+                markRecentlyActed(actorID)
                 try? engine.apply(action, from: actorID)
 
                 if engine.state.phase != previousPhase && engine.state.phase != .handOver {
                     collectingBets = preBets
                     objectWillChange.send()
-                    try? await Task.sleep(for: .milliseconds(600))
-                    guard !Task.isCancelled else { break }
+                    guard await delay(600, fast: fast) else { break }
                     collectingBets = [:]
                     lastActions = [:]
                     previousPhase = engine.state.phase
                     objectWillChange.send()
-                    try? await Task.sleep(for: .milliseconds(300))
-                    guard !Task.isCancelled else { break }
+                    guard await delay(300, fast: fast) else { break }
                 }
 
                 finishHandIfNeeded()

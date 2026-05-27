@@ -341,8 +341,36 @@ public struct GameEngine: Sendable {
             currentStreetBet: seat.currentStreetBet,
             stack: seat.stack,
             activeOpponentCount: state.seats.filter { $0.id != seatID && ($0.status == .active || $0.status == .allIn) }.count,
-            legalActions: legalActionsForCurrentActor
+            legalActions: legalActionsForCurrentActor,
+            position: tablePosition(for: seatID)
         )
+    }
+
+    public func tablePosition(for seatID: Int) -> TablePosition {
+        if seatID == state.dealerSeatID { return .btn }
+        if seatID == state.smallBlindSeatID { return .sb }
+        if seatID == state.bigBlindSeatID { return .bb }
+
+        let activeIDs = state.seats
+            .filter { $0.status != .sittingOut }
+            .map(\.id)
+            .sorted()
+        guard let dealerIdx = activeIDs.firstIndex(of: state.dealerSeatID) else { return .utg }
+
+        var order: [Int] = []
+        for offset in 1...activeIDs.count {
+            let id = activeIDs[(dealerIdx + offset) % activeIDs.count]
+            if id == state.smallBlindSeatID || id == state.bigBlindSeatID { continue }
+            if id == state.dealerSeatID { continue }
+            order.append(id)
+        }
+
+        guard let idx = order.firstIndex(of: seatID) else { return .utg }
+        let remaining = order.count
+        if remaining <= 1 { return .utg }
+        if remaining == 2 { return idx == 0 ? .utg : .co }
+        if remaining == 3 { return [.utg, .mp, .co][idx] }
+        return [.utg, .mp, .co, .co][min(idx, 3)]
     }
 
     private mutating func postBlind(seatID: Int, amount: Int) {

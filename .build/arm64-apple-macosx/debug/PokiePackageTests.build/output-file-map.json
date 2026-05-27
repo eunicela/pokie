@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/primary.swiftdeps"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.derived/runner.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner.dia"
+  }
+}

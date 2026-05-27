@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A00000000000000000005F /* Sources/PokieApp/Views/PokieAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000023 /* Sources/PokieApp/Views/PokieAvatarView.swift */; };
+		42A000000000000000000050 /* Sources/PokieCore/AIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000014 /* Sources/PokieCore/AIPlayer.swift */; };
+		42A000000000000000000051 /* Sources/PokieCore/Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000015 /* Sources/PokieCore/Card.swift */; };
+		42A000000000000000000052 /* Sources/PokieCore/GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000016 /* Sources/PokieCore/GameEngine.swift */; };
+		42A000000000000000000053 /* Sources/PokieCore/HandEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000017 /* Sources/PokieCore/HandEvaluator.swift */; };
+		42A000000000000000000054 /* Sources/PokieCore/PlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000018 /* Sources/PokieCore/PlayerStats.swift */; };
+		42A000000000000000000055 /* Sources/PokieCore/SidePotCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000019 /* Sources/PokieCore/SidePotCalculator.swift */; };
+		42A000000000000000000056 /* Sources/PokieApp/PokieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001A /* Sources/PokieApp/PokieApp.swift */; };
+		42A000000000000000000057 /* Sources/PokieApp/PersistenceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001B /* Sources/PokieApp/PersistenceModels.swift */; };
+		42A000000000000000000058 /* Sources/PokieApp/GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001C /* Sources/PokieApp/GameViewModel.swift */; };
+		42A000000000000000000059 /* Sources/PokieApp/Views/CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001D /* Sources/PokieApp/Views/CardView.swift */; };
+		42A00000000000000000005A /* Sources/PokieApp/Views/TableScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001E /* Sources/PokieApp/Views/TableScreen.swift */; };
+		42A00000000000000000005B /* Sources/PokieApp/Views/HandRankingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A00000000000000000001F /* Sources/PokieApp/Views/HandRankingsView.swift */; };
+		42A00000000000000000005E /* Sources/PokieApp/Views/ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000022 /* Sources/PokieApp/Views/ProfileScreen.swift */; };
+		42A000000000000000000060 /* Sources/PokieCore/PreflopStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000024 /* Sources/PokieCore/PreflopStrategy.swift */; };
+		42A000000000000000000061 /* Sources/PokieCore/GTOAIPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000025 /* Sources/PokieCore/GTOAIPlayer.swift */; };
+		42A000000000000000000062 /* Sources/PokieCore/EquityCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000026 /* Sources/PokieCore/EquityCalculator.swift */; };
+		42A000000000000000000063 /* Sources/PokieCore/PostflopStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000027 /* Sources/PokieCore/PostflopStrategy.swift */; };
+		42A000000000000000000064 /* Sources/PokieCore/ArchetypeDeviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A000000000000000000028 /* Sources/PokieCore/ArchetypeDeviation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42A000000000000000000023 /* Sources/PokieApp/Views/PokieAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/PokieAvatarView.swift; sourceTree = "<group>"; };
+		42A000000000000000000004 /* Pokie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A000000000000000000014 /* Sources/PokieCore/AIPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/AIPlayer.swift; sourceTree = "<group>"; };
+		42A000000000000000000015 /* Sources/PokieCore/Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/Card.swift; sourceTree = "<group>"; };
+		42A000000000000000000016 /* Sources/PokieCore/GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/GameEngine.swift; sourceTree = "<group>"; };
+		42A000000000000000000017 /* Sources/PokieCore/HandEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/HandEvaluator.swift; sourceTree = "<group>"; };
+		42A000000000000000000018 /* Sources/PokieCore/PlayerStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/PlayerStats.swift; sourceTree = "<group>"; };
+		42A000000000000000000019 /* Sources/PokieCore/SidePotCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/SidePotCalculator.swift; sourceTree = "<group>"; };
+		42A00000000000000000001A /* Sources/PokieApp/PokieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/PokieApp.swift; sourceTree = "<group>"; };
+		42A00000000000000000001B /* Sources/PokieApp/PersistenceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/PersistenceModels.swift; sourceTree = "<group>"; };
+		42A00000000000000000001C /* Sources/PokieApp/GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/GameViewModel.swift; sourceTree = "<group>"; };
+		42A00000000000000000001D /* Sources/PokieApp/Views/CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/CardView.swift; sourceTree = "<group>"; };
+		42A00000000000000000001E /* Sources/PokieApp/Views/TableScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/TableScreen.swift; sourceTree = "<group>"; };
+		42A00000000000000000001F /* Sources/PokieApp/Views/HandRankingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/HandRankingsView.swift; sourceTree = "<group>"; };
+		42A000000000000000000022 /* Sources/PokieApp/Views/ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieApp/Views/ProfileScreen.swift; sourceTree = "<group>"; };
+		42A000000000000000000024 /* Sources/PokieCore/PreflopStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/PreflopStrategy.swift; sourceTree = "<group>"; };
+		42A000000000000000000025 /* Sources/PokieCore/GTOAIPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/GTOAIPlayer.swift; sourceTree = "<group>"; };
+		42A000000000000000000026 /* Sources/PokieCore/EquityCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/EquityCalculator.swift; sourceTree = "<group>"; };
+		42A000000000000000000027 /* Sources/PokieCore/PostflopStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/PostflopStrategy.swift; sourceTree = "<group>"; };
+		42A000000000000000000028 /* Sources/PokieCore/ArchetypeDeviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/PokieCore/ArchetypeDeviation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				42A00000000000000000000F /* Sources */,
+				42A000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42A000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A000000000000000000004 /* Pokie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A00000000000000000000F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42A000000000000000000014 /* Sources/PokieCore/AIPlayer.swift */,
+				42A000000000000000000015 /* Sources/PokieCore/Card.swift */,
+				42A000000000000000000016 /* Sources/PokieCore/GameEngine.swift */,
+				42A000000000000000000017 /* Sources/PokieCore/HandEvaluator.swift */,
+				42A000000000000000000018 /* Sources/PokieCore/PlayerStats.swift */,
+				42A000000000000000000019 /* Sources/PokieCore/SidePotCalculator.swift */,
+				42A000000000000000000024 /* Sources/PokieCore/PreflopStrategy.swift */,
+				42A000000000000000000025 /* Sources/PokieCore/GTOAIPlayer.swift */,
+				42A000000000000000000026 /* Sources/PokieCore/EquityCalculator.swift */,
+				42A000000000000000000027 /* Sources/PokieCore/PostflopStrategy.swift */,
+				42A000000000000000000028 /* Sources/PokieCore/ArchetypeDeviation.swift */,
+				42A00000000000000000001A /* Sources/PokieApp/PokieApp.swift */,
+				42A00000000000000000001B /* Sources/PokieApp/PersistenceModels.swift */,
+				42A00000000000000000001C /* Sources/PokieApp/GameViewModel.swift */,
+				42A00000000000000000001D /* Sources/PokieApp/Views/CardView.swift */,
+				42A00000000000000000001E /* Sources/PokieApp/Views/TableScreen.swift */,
+				42A000000000000000000023 /* Sources/PokieApp/Views/PokieAvatarView.swift */,
+				42A00000000000000000001F /* Sources/PokieApp/Views/HandRankingsView.swift */,
+				42A000000000000000000022 /* Sources/PokieApp/Views/ProfileScreen.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A000000000000000000008 /* Pokie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A00000000000000000000A /* Build configuration list for PBXNativeTarget "Pokie" */;
+			buildPhases = (
+				42A000000000000000000005 /* Sources */,
+				42A000000000000000000006 /* Frameworks */,
+				42A000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pokie;
+			productName = Pokie;
+			productReference = 42A000000000000000000004 /* Pokie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					42A000000000000000000008 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 42A000000000000000000009 /* Build configuration list for PBXProject "Pokie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A000000000000000000002;
+			productRefGroup = 42A000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A000000000000000000008 /* Pokie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A000000000000000000050 /* Sources/PokieCore/AIPlayer.swift in Sources */,
+				42A000000000000000000051 /* Sources/PokieCore/Card.swift in Sources */,
+				42A000000000000000000052 /* Sources/PokieCore/GameEngine.swift in Sources */,
+				42A000000000000000000053 /* Sources/PokieCore/HandEvaluator.swift in Sources */,
+				42A000000000000000000054 /* Sources/PokieCore/PlayerStats.swift in Sources */,
+				42A000000000000000000055 /* Sources/PokieCore/SidePotCalculator.swift in Sources */,
+				42A000000000000000000056 /* Sources/PokieApp/PokieApp.swift in Sources */,
+				42A000000000000000000057 /* Sources/PokieApp/PersistenceModels.swift in Sources */,
+				42A000000000000000000058 /* Sources/PokieApp/GameViewModel.swift in Sources */,
+				42A000000000000000000059 /* Sources/PokieApp/Views/CardView.swift in Sources */,
+				42A00000000000000000005A /* Sources/PokieApp/Views/TableScreen.swift in Sources */,
+				42A00000000000000000005F /* Sources/PokieApp/Views/PokieAvatarView.swift in Sources */,
+				42A00000000000000000005B /* Sources/PokieApp/Views/HandRankingsView.swift in Sources */,
+				42A00000000000000000005E /* Sources/PokieApp/Views/ProfileScreen.swift in Sources */,
+				42A000000000000000000060 /* Sources/PokieCore/PreflopStrategy.swift in Sources */,
+				42A000000000000000000061 /* Sources/PokieCore/GTOAIPlayer.swift in Sources */,
+				42A000000000000000000062 /* Sources/PokieCore/EquityCalculator.swift in Sources */,
+				42A000000000000000000063 /* Sources/PokieCore/PostflopStrategy.swift in Sources */,
+				42A000000000000000000064 /* Sources/PokieCore/ArchetypeDeviation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		42A00000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42A00000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A00000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = HVWP7735YS;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/PokieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursor.Pokie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42A00000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HVWP7735YS;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/PokieApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursor.Pokie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A000000000000000000009 /* Build configuration list for PBXProject "Pokie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A00000000000000000000B /* Debug */,
+				42A00000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A00000000000000000000A /* Build configuration list for PBXNativeTarget "Pokie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A00000000000000000000D /* Debug */,
+				42A00000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A000000000000000000001 /* Project object */;
+}

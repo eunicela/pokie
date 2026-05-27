@@ -1,0 +1,716 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.xctest/Contents/MacOS/PokiePackageTests",
+      "packagePath" : "/Users/eunice/Documents/GitHub/pokie",
+      "productName" : "PokiePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.PokieCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/sources",
+      "importPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/AIPlayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/Card.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/GameEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/HandEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/PlayerStats.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/SidePotCalculator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PokieCore",
+      "moduleOutputPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokieCore.swiftmodule",
+      "objects" : [
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer.swift.o",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card.swift.o",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine.swift.o",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator.swift.o",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats.swift.o",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/include/PokieCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pokie"
+      ],
+      "outputFileMapPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokieCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/AIPlayer.swift",
+        "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/Card.swift",
+        "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/GameEngine.swift",
+        "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/HandEvaluator.swift",
+        "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/PlayerStats.swift",
+        "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/SidePotCalculator.swift"
+      ],
+      "tempsPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PokieCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/sources",
+      "importPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/HandEvaluatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/SidePotCalculatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokieCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PokieCoreTests",
+      "moduleOutputPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokieCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests.swift.o",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pokie"
+      ],
+      "outputFileMapPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokieCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/HandEvaluatorTests.swift",
+        "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/SidePotCalculatorTests.swift"
+      ],
+      "tempsPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PokiePackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/sources",
+      "importPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokieCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PokiePackageTests",
+      "moduleOutputPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokiePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/include/PokiePackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pokie"
+      ],
+      "outputFileMapPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules/PokiePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "PokieCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PokieCore",
+      "-package-name",
+      "pokie",
+      "-c",
+      "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/AIPlayer.swift",
+      "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/Card.swift",
+      "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/GameEngine.swift",
+      "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/HandEvaluator.swift",
+      "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/PlayerStats.swift",
+      "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/SidePotCalculator.swift",
+      "-I",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/include/PokieCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pokie",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PokieCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PokieCoreTests",
+      "-package-name",
+      "pokie",
+      "-c",
+      "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/HandEvaluatorTests.swift",
+      "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/SidePotCalculatorTests.swift",
+      "-I",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pokie",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PokiePackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PokiePackageTests",
+      "-package-name",
+      "pokie",
+      "-c",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/include/PokiePackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pokie",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "PokieCore" : [
+
+    ],
+    "PokieCoreTests" : [
+      "PokieCore"
+    ],
+    "PokiePackageTests" : [
+      "PokieCoreTests",
+      "PokieCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/AIPlayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/Card.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/GameEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/HandEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/PlayerStats.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/SidePotCalculator.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/sources"
+    },
+    "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/HandEvaluatorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/Tests/PokieCoreTests/SidePotCalculatorTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/sources"
+    },
+    "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/sources"
+    },
+    "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/HandEvaluatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCoreTests.build/SidePotCalculatorTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.build/runner.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokiePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

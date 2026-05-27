@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/primary.swiftdeps"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/AIPlayer.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/AIPlayer.dia"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/Card.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/Card.dia"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/GameEngine.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/GameEngine.dia"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/HandEvaluator.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/HandEvaluator.dia"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/PlayerStats.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/PlayerStats.dia"
+  },
+  "/Users/eunice/Documents/GitHub/pokie/Sources/PokieCore/SidePotCalculator.swift": {
+    "dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator.d",
+    "object": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator.swift.o",
+    "swiftmodule": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator~partial.swiftmodule",
+    "swift-dependencies": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator.swiftdeps",
+    "diagnostics": "/Users/eunice/Documents/GitHub/pokie/.build/arm64-apple-macosx/debug/PokieCore.build/SidePotCalculator.dia"
+  }
+}
